@@ -1,0 +1,14 @@
+{
+  "name": "halloween-ui",
+  "version": "1.0.0",
+  "description": "Libreria de componentes de Halloween: tarjeta de monstruo tematica de Dracula",
+  "author": "JUNHAO ZHANG",
+  "peerDependencies": {
+    "@angular/common": "^22.0.0",
+    "@angular/core": "^22.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

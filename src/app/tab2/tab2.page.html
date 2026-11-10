@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Historia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <lib-monster-card
+    imagen="assets/murcielago.jpg"
+    titulo="Poderes"
+    texto="Se transforma en murcielago o lobo, hipnotiza con la mirada, tiene fuerza sobrehumana y es inmortal."
+    textoBoton="Ver poderes"
+    (botonPulsado)="mostrarAlerta('Poderes: transformacion, hipnosis, fuerza e inmortalidad')">
+  </lib-monster-card>
+
+  <lib-monster-card
+    imagen="assets/castillo.jpg"
+    titulo="Debilidades"
+    texto="No soporta la luz del sol, el ajo, las cruces ni el agua bendita. Una estaca en el corazon acaba con el."
+    textoBoton="Ver debilidades"
+    (botonPulsado)="mostrarAlerta('Debilidades: sol, ajo, cruces y estaca en el corazon')">
+  </lib-monster-card>
+</ion-content>

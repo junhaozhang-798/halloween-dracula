@@ -1,0 +1,74 @@
+//Hace que la tarjeta ocupe todo el ancho
+:host {
+  display: block;
+}
+
+.tarjeta {
+  margin: 16px;
+  background-color: #1a0a12;
+  border: 4px double #8b0000;      /* borde decorativo */
+  border-radius: 12px;
+  box-shadow: 0 0 15px #8b0000;    /* sombra roja sangre */
+  color: white;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px #dc143c;
+}
+
+.imagen {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 2px solid #8b0000;
+}
+
+.contenido {
+  padding: 16px;
+  text-align: center;
+}
+
+.titulo {
+  font-family: 'Creepster', Georgia, serif;   /* fuente de terror */
+  color: #dc143c;
+  font-size: 28px;
+  margin: 0 0 10px 0;
+}
+
+.texto {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.boton {
+  background-color: #8b0000;
+  color: white;
+  border: 2px solid #c9a227;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #b30000;
+}
+
+.boton:active {
+  transform: scale(0.9);
+}
+
+.imagen {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;          /* muestra la imagen entera, sin recortar */
+  background-color: #000;       /* barras negras si sobra espacio */
+  display: block;
+  border-bottom: 2px solid #8b0000;
+}

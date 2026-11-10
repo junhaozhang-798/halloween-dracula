@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>🦇 Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <p class="frase">La sangre es vida... y yo tengo sed.</p>
+
+  <lib-monster-card
+    imagen="assets/dracula.jpg"
+    titulo="Dracula"
+    texto="El conde de Transilvania lleva siglos esperando tu visita."
+    textoBoton="Entrar al castillo"
+    (botonPulsado)="mostrarAlerta()">
+  </lib-monster-card>
+
+  <p class="descripcion">
+    Dracula es un vampiro noble que vive en un castillo de los Carpatos.
+    Nacio de la novela de Bram Stoker (1897) y desde entonces es el monstruo
+    mas famoso de Halloween: elegante, inmortal y siempre hambriento.
+  </p>
+</ion-content>
